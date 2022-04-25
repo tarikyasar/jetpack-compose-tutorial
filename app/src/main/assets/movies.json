@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Midsommar",
+    "director": "Ari Aster",
+    "year": "2019",
+    "runtime": "148 min",
+    "plot": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+    "rating": 7.1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_SX300.jpg"
+  },
+  {
+    "title": "Hereditary",
+    "director": "Ari Aster",
+    "year": "2018",
+    "runtime": "127 min",
+    "plot": "A grieving family is haunted by tragic and disturbing occurrences.",
+    "rating": 7.3,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTU5MDg3OGItZWQ1Ny00ZGVmLTg2YTUtMzBkYzQ1YWIwZjlhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg"
+  },
+  {
+    "title": "CODA",
+    "director": "Sian Heder",
+    "year": "2021",
+    "runtime": "111 min",
+    "plot": "As a CODA (Child of Deaf Adults) Ruby is the only hearing person in her deaf family. When the family's fishing business is threatened, Ruby finds herself torn between pursuing her passion at Berklee College of Music and her fear of a",
+    "rating": 8.1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Copolla",
+    "year": "1972",
+    "runtime": "175 min",
+    "plot": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+    "rating": 9.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Lighthouse",
+    "director": "Robert Eggers",
+    "year": "2019",
+    "runtime": "109 min",
+    "plot": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic, and possession.",
+    "rating": 7.4,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Witch",
+    "director": "Robert Eggers",
+    "year": "2015",
+    "runtime": "92 min",
+    "plot": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+    "rating": 6.9,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_SX300.jpg"
+  },
+  {
+    "title": "No Country for Old Men",
+    "director": "Ethan Coen, Joel Coen",
+    "year": "2007",
+    "runtime": "122 min",
+    "plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+    "rating": 8.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "director": "Stanley Kubrick",
+    "year": "1971",
+    "runtime": "136 min",
+    "plot": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.",
+    "rating": 8.3,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Gentlemen",
+    "director": "Guy Ritchie",
+    "year": "2019",
+    "runtime": "113 min",
+    "plot": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+    "rating": 7.8,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+  },
+  {
+    "title": "Hereditary",
+    "director": "Ari Aster",
+    "year": "2018",
+    "runtime": "127 min",
+    "plot": "A grieving family is haunted by tragic and disturbing occurrences.",
+    "rating": 7.3,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTU5MDg3OGItZWQ1Ny00ZGVmLTg2YTUtMzBkYzQ1YWIwZjlhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg"
+  },
+  {
+    "title": "CODA",
+    "director": "Sian Heder",
+    "year": "2021",
+    "runtime": "111 min",
+    "plot": "As a CODA (Child of Deaf Adults) Ruby is the only hearing person in her deaf family. When the family's fishing business is threatened, Ruby finds herself torn between pursuing her passion at Berklee College of Music and her fear of a",
+    "rating": 8.1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Copolla",
+    "year": "1972",
+    "runtime": "175 min",
+    "plot": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+    "rating": 9.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Lighthouse",
+    "director": "Robert Eggers",
+    "year": "2019",
+    "runtime": "109 min",
+    "plot": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic, and possession.",
+    "rating": 7.4,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Witch",
+    "director": "Robert Eggers",
+    "year": "2015",
+    "runtime": "92 min",
+    "plot": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+    "rating": 6.9,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_SX300.jpg"
+  },
+  {
+    "title": "No Country for Old Men",
+    "director": "Ethan Coen, Joel Coen",
+    "year": "2007",
+    "runtime": "122 min",
+    "plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+    "rating": 8.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "director": "Stanley Kubrick",
+    "year": "1971",
+    "runtime": "136 min",
+    "plot": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.",
+    "rating": 8.3,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Gentlemen",
+    "director": "Guy Ritchie",
+    "year": "2019",
+    "runtime": "113 min",
+    "plot": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+    "rating": 7.8,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+  },
+  {
+    "title": "Hereditary",
+    "director": "Ari Aster",
+    "year": "2018",
+    "runtime": "127 min",
+    "plot": "A grieving family is haunted by tragic and disturbing occurrences.",
+    "rating": 7.3,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTU5MDg3OGItZWQ1Ny00ZGVmLTg2YTUtMzBkYzQ1YWIwZjlhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg"
+  },
+  {
+    "title": "CODA",
+    "director": "Sian Heder",
+    "year": "2021",
+    "runtime": "111 min",
+    "plot": "As a CODA (Child of Deaf Adults) Ruby is the only hearing person in her deaf family. When the family's fishing business is threatened, Ruby finds herself torn between pursuing her passion at Berklee College of Music and her fear of a",
+    "rating": 8.1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Copolla",
+    "year": "1972",
+    "runtime": "175 min",
+    "plot": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+    "rating": 9.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Lighthouse",
+    "director": "Robert Eggers",
+    "year": "2019",
+    "runtime": "109 min",
+    "plot": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic, and possession.",
+    "rating": 7.4,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Witch",
+    "director": "Robert Eggers",
+    "year": "2015",
+    "runtime": "92 min",
+    "plot": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+    "rating": 6.9,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_SX300.jpg"
+  },
+  {
+    "title": "No Country for Old Men",
+    "director": "Ethan Coen, Joel Coen",
+    "year": "2007",
+    "runtime": "122 min",
+    "plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+    "rating": 8.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "director": "Stanley Kubrick",
+    "year": "1971",
+    "runtime": "136 min",
+    "plot": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.",
+    "rating": 8.3,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_SX300.jpg"
+  },
+  {
+    "title": "The Gentlemen",
+    "director": "Guy Ritchie",
+    "year": "2019",
+    "runtime": "113 min",
+    "plot": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+    "rating": 7.8,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+  }
+]
