@@ -33,7 +33,7 @@ fun MovieDetailScreen(movie: Movie) {
 
     DynamicThemePrimaryColorsFromImage(dominantColorState) {
         coroutineScope.launch {
-            dominantColorState.updateColorsFromImageUrl(createMoviePosterLink(movie.poster))
+            dominantColorState.updateColorsFromImageUrl(movie.poster)
         }
 
         Surface(color = dominantColorState.color) {
@@ -92,7 +92,7 @@ fun MovieDetailContent(movie: Movie) {
                 .padding(vertical = 20.dp)
         ) {
             Image(
-                painter = rememberAsyncImagePainter(model = createMoviePosterLink(movie.poster)),
+                painter = rememberAsyncImagePainter(model = movie.poster),
                 contentDescription = "",
                 contentScale = ContentScale.FillWidth,
                 modifier = Modifier

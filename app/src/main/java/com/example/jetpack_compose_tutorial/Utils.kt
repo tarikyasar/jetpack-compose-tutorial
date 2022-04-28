@@ -1,6 +1,8 @@
 package com.example.jetpack_compose_tutorial
 
 import android.content.Context
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalContext
 import com.example.jetpack_compose_tutorial.data.Movie
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -32,14 +34,10 @@ fun getMovies(context: Context): List<Movie> {
     return gson.fromJson(jsonFileString, listMovieType)
 }
 
-fun createMoviePosterLink(link: String): String {
-    return "https://m.media-amazon.com/images/M/${link}"
-}
+@Composable
+fun getMovie(movieName: String): Movie? {
+    val context = LocalContext.current
+    val movies = getMovies(context)
 
-fun <A> String.fromJson(type: Class<A>): A {
-    return Gson().fromJson(this, type)
-}
-
-fun <A> A.toJson(): String? {
-    return Gson().toJson(this)
+    return movies.find { it.title == movieName }
 }

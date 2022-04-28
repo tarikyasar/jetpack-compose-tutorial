@@ -16,7 +16,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.IntOffset
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
-import com.example.jetpack_compose_tutorial.data.Movie
 import com.example.jetpack_compose_tutorial.navigation.Screen
 import com.example.jetpack_compose_tutorial.ui.theme.JetpackComposeTutorialTheme
 import com.google.accompanist.navigation.animation.AnimatedNavHost
@@ -73,17 +72,16 @@ class MainActivity : ComponentActivity() {
                         }
 
                         composable(
-                            route = "movieDetail/{movie}",
+                            route = "${Screen.MovieDetail.route}/{movieName}",
                             arguments = listOf(
-                                navArgument("movie") {
+                                navArgument("movieName") {
                                     type = NavType.StringType
                                 }
                             )
                         ) {
-                            it.arguments?.getString("movie")?.let { jsonString ->
-                                val movie = jsonString.fromJson(Movie::class.java)
-                                MovieDetailScreen(movie = movie)
-                            }
+                            val movie = it.arguments?.getString("movieName")
+                                ?.let { it1 -> getMovie(it1) }
+                            MovieDetailScreen(movie = movie!!)
                         }
                     }
                 }

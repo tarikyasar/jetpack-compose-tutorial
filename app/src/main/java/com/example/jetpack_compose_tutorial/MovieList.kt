@@ -1,17 +1,18 @@
 package com.example.jetpack_compose_tutorial
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Divider
-import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -37,20 +38,10 @@ fun MovieListContent(
 ) {
     LazyColumn {
         items(movies) { movie ->
-            ListItem(
+            MovieListItem(
                 movie = movie,
-                onClick = {
-                    val newMovie = Movie(
-                        title = movie.title,
-                        director = movie.director,
-                        plot = movie.plot,
-                        poster = movie.poster.split("/M/")[1],
-                        rating = movie.rating,
-                        runtime = movie.runtime,
-                        year = movie.year
-                    )
-                    val movieString = newMovie.toJson()
-                    navController.navigate("${Screen.MovieDetail.route}/$movieString")
+                onItemClick = {
+                    navController.navigate("${Screen.MovieDetail.route}/${movie.title}")
                 }
             )
 
@@ -59,64 +50,64 @@ fun MovieListContent(
     }
 }
 
-@OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun ListItem(
+fun MovieListItem(
     movie: Movie,
-    onClick: () -> Unit
+    onItemClick: () -> Unit
 ) {
     Surface(
-        modifier = Modifier
-            .height(120.dp),
         color = Color.White,
-        onClick = { onClick() },
+        modifier = Modifier
+            .height(120.dp)
+            .clickable { onItemClick() },
     ) {
-        Box(contentAlignment = Alignment.CenterEnd) {
-            Row(
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+        ) {
+            Image(
+                painter = rememberAsyncImagePainter(model = movie.poster),
+                contentDescription = "",
+                contentScale = ContentScale.FillHeight,
                 modifier = Modifier
-                    .fillMaxWidth()
+                    .width(80.dp)
+                    .fillMaxHeight()
+            )
+
+            Column(
+                verticalArrangement = Arrangement.Top,
+                horizontalAlignment = Alignment.Start,
+                modifier = Modifier
+                    .padding(start = 4.dp)
+                    .weight(1f)
             ) {
-                Image(
-                    painter = rememberAsyncImagePainter(model = movie.poster),
-                    contentDescription = "",
+                Text(
+                    text = movie.title,
+                    fontSize = 20.sp
                 )
 
-                Row(
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .fillMaxHeight()
-                ) {
-                    Column(
-                        verticalArrangement = Arrangement.Top,
-                        horizontalAlignment = Alignment.Start,
-                        modifier = Modifier.padding(start = 4.dp)
-                    ) {
-                        Text(
-                            text = movie.title,
-                            fontSize = 20.sp
-                        )
-
-                        Text(
-                            text = movie.director,
-                            fontSize = 14.sp
-                        )
-                    }
-
-                }
+                Text(
+                    text = movie.director,
+                    fontSize = 14.sp
+                )
             }
 
-            ImdbRating(rating = movie.rating)
+            ImdbRating(
+                rating = movie.rating,
+                modifier = Modifier
+                    .fillMaxHeight()
+                    .padding(end = 4.dp)
+            )
+
         }
     }
 }
 
 @Composable
-fun ImdbRating(rating: Double) {
+fun ImdbRating(rating: Double, modifier: Modifier = Modifier) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier
-            .padding(end = 4.dp)
+        modifier = modifier
     ) {
         Image(
             painter = painterResource(id = R.drawable.ic_star),
